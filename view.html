@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+    <title>Anhui Polytechnic University</title>
+    <link rel="stylesheet" media="screen" href="./Styles/basic.css">
+    <script type="text/javascript" src="Script/global.js"></script>
+    <script type="text/javascript" src="Script/view.js"></script>
+</head>
+<body>
+<div id="header">
+    <img src="./Image/logo.jpg" alt="Anhui Polytechnic University" />
+</div>
+<div id="navigation">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="photos.html">Photos</a></li>
+        <li><a href="collage.html">Collage</a></li>
+        <li><a href="view.html">Contact</a></li>
+    </ul>
+</div>
+<div id="content">
+    <h1>联系我们或留下建议</h1>
+    <form method="post" action="#">
+        <fieldset>
+            <p>
+                <label for="name">昵称:</label>
+                <input type="text" id="name" name="name" value="Your name" class="required" />
+            </p>
+            <p>
+                <label for="email">邮箱地址:</label>
+                <input type="text" id="email" name="email" value="Your email" class="required" />
+            </p>
+            <p>
+                <label for="message">建议:</label>
+                <textarea cols="100" rows="10" id="message" name="message"  class="required" >Write your advise here.</textarea>
+            </p>
+            <input type="submit" value="提交" />
+        </fieldset>
+    </form>
+
+</div>
+</body>
+</html>
